@@ -1,0 +1,16 @@
+{
+  "name": "vis1",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.0.7",
+    "json3": "~3.2.4",
+    "es5-shim": "~2.0.8",
+    "vis": "~4.15.1",
+    "moment": "~2.12.0",
+    "lodash": "~4.6.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.7",
+    "angular-scenario": "~1.0.7"
+  }
+}

@@ -1,0 +1,18 @@
+<style>
+  .vis-center, .vis-center * {
+    top: 0 !important;
+  }
+  .vis-item {
+    padding-bottom: 25px;
+  }
+</style>
+
+
+<div ng-controller="TimelineCtrl">
+
+  <div ng-bind="start"></div>
+  <div ng-bind="end"></div>
+  <div ng-bind="current"></div>
+
+  <div vis-timeline start="start" end="end" current="current"></div>
+</div>
